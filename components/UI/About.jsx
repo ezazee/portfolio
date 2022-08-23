@@ -22,9 +22,9 @@ const About = () => {
             <h3 className="mb-4">To make your project more perfect</h3>
             <p>
               Hi! Introducing, my name is Reza... I come from Indonesia in
-              Jakarta. I've been into programming since 2021 because it's fun,
-              solving problems with code.... Now I work in a technology company
-              that has been in Jakarta since 2022
+              Jakarta. I&apos;ve been into programming since 2021 because
+              it&apos;s fun, solving problems with code.... Now I work in a
+              technology company that has been in Jakarta since 2022
             </p>
 
             <div className=" d-flex align-items-center gap-5">

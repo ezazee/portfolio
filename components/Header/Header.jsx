@@ -79,7 +79,11 @@ const Header = () => {
               <div className={`${classes.nav__right}`}>
                 <p className=" d-flex align-items-center gap-2 mb-0">
                   {" "}
-                  <a target="_blank" href="https://wa.me/+6281313711180">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://wa.me/+6281313711180"
+                  >
                     {" "}
                     <i className="ri-whatsapp-line"></i> WhatsApp Me{" "}
                   </a>
