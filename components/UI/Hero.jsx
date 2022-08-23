@@ -15,26 +15,23 @@ const Hero = () => {
           {/* ========== hero content ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__content}`}>
-              <SectionSubtitle subtitle="Halo 👋" />
-              <h2 className="mt-3 mb-3">Aku Reza</h2>
-              <h5 className="mb-4">Junior Frontend Developer</h5>
-              <p>
-                Mencoba menjadi orang yang kompeten dalam memecahkan masalah
-                coding
-              </p>
+              <SectionSubtitle subtitle="Helo 👋" />
+              <h2 className="mt-3 mb-3">I'm Reza</h2>
+              <h5 className="mb-4">Jr. Frontend Developer</h5>
+              <p>Trying to be a competent person in solving coding problems</p>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <Link
+                  <a
                     target="_blank"
                     href="https://www.linkedin.com/in/mohamad-reza-65879b220/"
                   >
                     LinkedIn
-                  </Link>
+                  </a>
                 </button>
 
                 <button className="secondary__btn">
                   <Link
-                    target="_blank"
+                    target={"_blank"}
                     href="https://drive.google.com/file/d/1irtyeRQ7beoHCKiZswG2ygVbmRZsVjtF/view?usp=sharing"
                   >
                     Download CV

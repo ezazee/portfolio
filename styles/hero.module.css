@@ -2,8 +2,8 @@
   padding-top: 60px !important;
 }
 .hero__content h5 {
-  color: #808dad;
-  font-weight: 400;
+  color: #016ad2;
+  font-weight: bold;
 }
 
 .hero__content {
@@ -28,7 +28,7 @@
   left: 22%;
   transform: translateY(-50%);
   border-radius: 5px;
-  background: #808dad26;
+  background: #016ad240;
   z-index: 10;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .hero__skills span i {
-  color: #01d293;
+  color: #fff;
   background: transparent;
 }
 
@@ -53,7 +53,7 @@
   right: -5%;
   padding: 10px 20px;
   border-radius: 5px;
-  background: #808dad26;
+  background: #016ad240;
   z-index: 10;
 }
 
@@ -71,8 +71,8 @@
 
 .hero__experience span i {
   padding: 5px;
-  color: #01d293;
-  background: #808dad70;
+  color: #fff;
+  background: #016ad240;
   border-radius: 5px;
 }
 

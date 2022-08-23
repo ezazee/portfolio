@@ -19,13 +19,12 @@ const About = () => {
           <Col lg="6" className={`${classes.about__content}`}>
             <SectionSubtitle subtitle="About me" />
             <h3 className="mt-4">I&apos;m here</h3>
-            <h3 className="mb-4">to help your next project</h3>
+            <h3 className="mb-4">To make your project more perfect</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              neque asperiores temporibus quo saepe odio, esse labore libero
-              obcaecati quidem explicabo blanditiis deleniti ex vitae ratione
-              ullam fugiat dicta eum sint officiis porro illum quia. Error quam
-              cum excepturi beatae.
+              Hi! Introducing, my name is Reza... I come from Indonesia in
+              Jakarta. I've been into programming since 2021 because it's fun,
+              solving problems with code.... Now I work in a technology company
+              that has been in Jakarta since 2022
             </p>
 
             <div className=" d-flex align-items-center gap-5">
@@ -41,7 +40,7 @@ const About = () => {
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Search A Lot
+                  Perfect experience
                 </h6>
               </div>
 
@@ -57,18 +56,20 @@ const About = () => {
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  High Quality
+                  High Quality Design
                 </h6>
               </div>
             </div>
 
             <div className="mt-5">
               <button className="primary__btn">
-                <Link href="#portfolio">My Portfolio</Link>
+                <Link href="https://github.com/ezazee">My Github</Link>
               </button>
 
               <button className="secondary__btn">
-                <Link href="#">Download CV</Link>
+                <Link href="https://drive.google.com/file/d/1irtyeRQ7beoHCKiZswG2ygVbmRZsVjtF/view?usp=sharing">
+                  Download CV
+                </Link>
               </button>
             </div>
           </Col>

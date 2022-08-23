@@ -26,6 +26,14 @@ const Portfolio = () => {
 
       setData(filteredData);
     }
+
+    if (filter === "UI UX Design") {
+      const filteredData = portfolioData.filter(
+        (item) => item.category === filter
+      );
+
+      setData(filteredData);
+    }
   }, [filter]);
 
   const active = `${classes.tab__btn__active}`;
@@ -36,7 +44,7 @@ const Portfolio = () => {
         <Row>
           <Col lg="6" md="6" className="mb-5">
             <SectionSubtitle subtitle=" My portfolio" />
-            <h4 className="mt-4">Some of my distinguished works</h4>
+            <h4 className="mt-4">Some of my works</h4>
           </Col>
 
           <Col lg="6" md="6">
@@ -44,18 +52,26 @@ const Portfolio = () => {
               <button
                 className={` ${
                   filter === "Mobile App" ? active : ""
-                } secondary__btn text-white`}
+                } secondary__btn `}
                 onClick={() => setFilter("Mobile App")}
               >
-                Mobile App
+                Graphic Design
               </button>
               <button
                 className={`${
                   filter === "Web Design" ? active : ""
-                } secondary__btn text-white`}
+                } secondary__btn `}
                 onClick={() => setFilter("Web Design")}
               >
                 Web Design
+              </button>
+              <button
+                className={`${
+                  filter === "UI UX Design" ? active : ""
+                } secondary__btn `}
+                onClick={() => setFilter("UI UX Design")}
+              >
+                UI UX Design
               </button>
             </div>
           </Col>

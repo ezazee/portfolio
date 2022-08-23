@@ -12,28 +12,28 @@ const Services = () => {
           <Col lg="6" md="6">
             <div className={`${classes.services__container}`}>
               <div>
-                <ServicesItem title="App Development" icon="ri-apps-line" />
+                <ServicesItem title="Grapich Design" icon="ri-brush-line" />
 
-                <ServicesItem title="Web Development" icon="ri-computer-line" />
+                <ServicesItem
+                  title="UI UX Design From Scratch"
+                  icon="ri-computer-line"
+                />
               </div>
 
               <ServicesItem
-                title="Full-Stack Development"
+                title="Front-End Web Development"
                 icon="ri-code-s-slash-line"
               />
             </div>
           </Col>
 
           <Col lg="6" md="6" className={`${classes.service__title}`}>
-            <SectionSubtitle subtitle="What I do" />
+            <SectionSubtitle subtitle="What I Have " />
             <h3 className="mb-0 mt-4">Better Design,</h3>
             <h3 className="mb-4">Better Experience</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non amet
-              culpa nobis corporis officiis, numquam cupiditate, enim expedita
-              eveniet dolorum, aliquid nesciunt sapiente illo voluptatum!
-              Dolores fuga mollitia atque, placeat minima quibusdam accusantium!
-              Veniam, non distinctio dolorem rerum laboriosam deleniti.
+              Make the display as attractive as possible to quickly attract
+              customers and create a stunning experience
             </p>
           </Col>
         </Row>

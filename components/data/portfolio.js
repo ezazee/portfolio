@@ -66,7 +66,7 @@ const portfolio = [
     id: "08",
     title: "Restaurant Website",
     img: "/images/portfolio-08.png",
-    category: "Web Design",
+    category: "UI UX Design",
     keyword: ["Web", "Web design", "UI-UX"],
     liveUrl: "#",
   },

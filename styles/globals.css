@@ -15,7 +15,7 @@ a {
 
 * {
   box-sizing: border-box;
-  background: #0e1630;
+  background: #FFF;
 }
 
 p {
@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #fff;
+  color: rgb(57, 57, 57);
 }
 
 h2 {
@@ -46,15 +46,20 @@ footer {
 }
 
 .primary__btn {
-  background: #171f38 !important;
+  background: #fff !important;
   padding: 7px 25px !important;
-  border: 1px solid #01d293 !important;
+  border: 1px solid #016ad2 !important;
   border-radius: 5px;
+  transition: .3s ease-in-out;
+}
+
+.primary__btn:hover{
+  background: #016ad245 !important;
 }
 
 .primary__btn a {
   text-decoration: none;
-  color: #01d293;
+  color: #016ad2;
   background: transparent !important;
 }
 
@@ -67,21 +72,21 @@ footer {
 
 
 .secondary__btn a {
-  color: #01d293 !important;
+  color: #016ad2 !important;
 }
-.primary__btn a:hover,
+
 .secondary__btn a:hover {
-  color: #01d293;
+  color: #016ad2;
 }
 
 ::-webkit-scrollbar {
   width: 10px;
-  background: #808dad;
+  background: #fff;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 2em;
-  background: #171f38;
+  background: #016ad254;
 }
 
 @media only screen and (max-width: 992px) {

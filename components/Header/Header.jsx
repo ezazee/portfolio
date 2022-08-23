@@ -11,11 +11,11 @@ const NAV__LINK = [
   },
   {
     path: "#about",
-    display: "Tentang Diriku",
+    display: "About Me",
   },
   {
     path: "#services",
-    display: "Layanan",
+    display: "Service",
   },
   {
     path: "#portfolio",
@@ -23,7 +23,7 @@ const NAV__LINK = [
   },
   {
     path: "#contact",
-    display: "Kontak",
+    display: "Contact Me",
   },
 ];
 
