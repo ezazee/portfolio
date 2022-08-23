@@ -23,6 +23,7 @@ const Hero = () => {
                 <button className="primary__btn">
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://www.linkedin.com/in/mohamad-reza-65879b220/"
                   >
                     LinkedIn
