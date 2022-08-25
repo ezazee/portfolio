@@ -88,6 +88,42 @@ const portfolio = [
     keyword: ["Web", "Web design", "UI-UX"],
     liveUrl: "#",
   },
+
+  {
+    id: "11",
+    title: "Store TopUp Website",
+    img: "/images/portfolio-11.png",
+    category: "Web Design",
+    keyword: ["Web", "Web design", "UI-UX"],
+    liveUrl: "https://store-29clwismc-ezazee.vercel.app/",
+  },
+
+  {
+    id: "12",
+    title: "Profile Produk Marketplace Website",
+    img: "/images/portfolio-12.png",
+    category: "Web Design",
+    keyword: ["Web", "Web design", "UI-UX"],
+    liveUrl: "https://store-29clwismc-ezazee.vercel.app/",
+  },
+
+  {
+    id: "13",
+    title: "Profile Produk Serivce Website",
+    img: "/images/portfolio-13.png",
+    category: "Web Design",
+    keyword: ["Web", "Web design", "UI-UX"],
+    liveUrl: "https://store-29clwismc-ezazee.vercel.app/",
+  },
+
+  {
+    id: "14",
+    title: "Profile Produk Marketplace Website",
+    img: "/images/portfolio-14.png",
+    category: "Web Design",
+    keyword: ["Web", "Web design", "UI-UX"],
+    liveUrl: "https://store-29clwismc-ezazee.vercel.app/",
+  },
 ];
 
 export default portfolio;

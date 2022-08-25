@@ -17,11 +17,11 @@
 }
 
 .service__item:hover i {
-  color: #171f38;
+  color: #fff;
 }
 
 .service__item:hover h5 {
-  color: #171f38;
+  color: #fff;
 }
 
 .service__item span,

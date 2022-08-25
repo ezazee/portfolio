@@ -14,7 +14,7 @@ export default function Home() {
       <About />
       <Portfolio />
       <Testimonial />
-      <Contact />
+      {/* <Contact /> */}
     </Fragment>
   );
 }
