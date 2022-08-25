@@ -4,10 +4,10 @@ import Link from "next/link";
 import SectionSubtitle from "./SectionSubtitle";
 import Image from "next/image";
 
-import img01 from "../../public/images/img-01.jpg";
-import img02 from "../../public/images/img-02.jpg";
-import img03 from "../../public/images/img-03.jpg";
-import img04 from "../../public/images/hero.jpg";
+import img01 from "../../public/images/";
+import img02 from "../../public/images/";
+import img03 from "../../public/images/";
+import img04 from "../../public/images/";
 
 import classes from "../../styles/about.module.css";
 
@@ -63,7 +63,7 @@ const About = () => {
 
             <div className="mt-5">
               <button className="primary__btn">
-                <Link href="https://github.com/ezazee">My Github</Link>
+                <Link href="https://aezazee.showwcase.com/">My Showwcase</Link>
               </button>
 
               <button className="secondary__btn">
