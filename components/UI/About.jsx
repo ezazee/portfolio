@@ -4,10 +4,10 @@ import Link from "next/link";
 import SectionSubtitle from "./SectionSubtitle";
 import Image from "next/image";
 
-import img01 from "../../public/images/eza.jpg";
+import img01 from "../../public/images/portfolio-02.jpg.jpg";
 import img02 from "../../public/images/eza.jpg";
-import img03 from "../../public/images/eza.jpg";
-import img04 from "../../public/images/eza.jpg";
+import img03 from "../../public/images/img-02.jpg";
+import img04 from "../../public/images/atas.jpg";
 
 import classes from "../../styles/about.module.css";
 
