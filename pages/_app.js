@@ -12,6 +12,9 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Reza Portfolio</title>
         <link rel="icon" href="/next.ico"></link>
+
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5533536258066529"
+     crossorigin="anonymous"></script>
       </Head>
       <Component {...pageProps} />;
     </Layout>
