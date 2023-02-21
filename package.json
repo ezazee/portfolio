@@ -19,9 +19,5 @@
     "remixicon": "^2.5.0",
     "slick-carousel": "^1.8.1",
     "yarn": "^1.22.19"
-  },
-  "devDependencies": {
-    "eslint": "8.18.0",
-    "eslint-config-next": "12.1.6"
   }
 }
