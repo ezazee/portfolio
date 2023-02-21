@@ -21,10 +21,6 @@ const NAV__LINK = [
     path: "#portfolio",
     display: "Portfolio",
   },
-  {
-    path: "#contact",
-    display: "Contact Me",
-  },
 ];
 
 const Header = () => {

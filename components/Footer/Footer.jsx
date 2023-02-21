@@ -11,19 +11,15 @@ const NAV__LINK = [
   },
   {
     path: "#about",
-    display: "About",
+    display: "About Me",
   },
   {
     path: "#services",
-    display: "Services",
+    display: "Service",
   },
   {
     path: "#portfolio",
     display: "Portfolio",
-  },
-  {
-    path: "#contact",
-    display: "Contact",
   },
 ];
 
@@ -56,7 +52,7 @@ const Footer = () => {
           <Col lg="12">
             <div className={`${classes.footer__copyright}`}>
               <p>
-                &copy; Copyright {year} - Developed by Muhibur Rahman. All right
+                &copy; Copyright {year} - Developed by Reza. All right
                 reserved.{" "}
               </p>
             </div>

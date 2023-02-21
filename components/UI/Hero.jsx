@@ -77,7 +77,7 @@ const Hero = () => {
                 </span>
                 <div className="bg-transparent">
                   <h6>Experience</h6>
-                  <h5 className="mb-0">1 Years</h5>
+                  <h5 className="mb-0"> ± 3 Years</h5>
                 </div>
               </div>
             </div>

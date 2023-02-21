@@ -7,7 +7,7 @@ import Image from "next/image";
 import img01 from "../../public/images/eza2.jpg";
 import img02 from "../../public/images/eza1.jpg";
 import img03 from "../../public/images/eza3.jpg";
-import img04 from "../../public/images/atas.jpg";
+import img04 from "../../public/images/eza4.jpg";
 
 import classes from "../../styles/about.module.css";
 
